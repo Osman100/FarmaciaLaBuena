@@ -11,5 +11,14 @@ namespace ProyectoLaFarmaciaFinal
         private int idProveedor;
         private string nombreProveedor;
         private string telefonoProveedor;
+
+        public Proveedor()
+        {
+
+        }
+
+        public int IdProveedor { get => idProveedor; set => idProveedor = value; }
+        public string NombreProveedor { get => nombreProveedor; set => nombreProveedor = value; }
+        public string TelefonoProveedor { get => telefonoProveedor; set => telefonoProveedor = value; }
     }
 }

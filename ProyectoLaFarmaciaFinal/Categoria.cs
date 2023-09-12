@@ -11,5 +11,12 @@ namespace ProyectoLaFarmaciaFinal
         private int idCategoria;
         private string nombreCategoria;
 
+        public Categoria()
+        {
+
+        }
+
+        public int IdCategoria { get => idCategoria; set => idCategoria = value; }
+        public string NombreCategoria { get => nombreCategoria; set => nombreCategoria = value; }
     }
 }
