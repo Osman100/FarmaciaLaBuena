@@ -22,5 +22,25 @@ namespace ProyectoLaFarmaciaFinal
         public string NombreVendedor { get => nombreVendedor; set => nombreVendedor = value; }
         public string EstadoLaboral { get => estadoLaboral; set => estadoLaboral = value; }
         public double Salario { get => salario; set => salario = value; }
+
+        public void AgregarVendedor()
+        {
+
+        }
+
+        public void ModificarVendedor()
+        {
+
+        }
+
+        public void EliminarVendedor()
+        {
+
+        }
+
+        public void BuscarVendedor()
+        {
+
+        }
     }
 }
