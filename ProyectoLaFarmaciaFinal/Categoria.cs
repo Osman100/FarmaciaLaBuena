@@ -8,5 +8,8 @@ namespace ProyectoLaFarmaciaFinal
 {
     internal class Categoria
     {
+        private int idCategoria;
+        private string nombreCategoria;
+
     }
 }

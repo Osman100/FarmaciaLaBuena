@@ -8,5 +8,10 @@ namespace ProyectoLaFarmaciaFinal
 {
     internal class Cliente
     {
+        private string idCliente;
+        private string nombreCliente;
+        private string correoElectronico;
+        private string numeroTelefonico;
+
     }
 }
