@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace ProyectoLaFarmaciaFinal
 {
-    public class Producto
+    internal class Producto
     {
         private int idProducto;
         private int idProveedor;
@@ -24,5 +24,27 @@ namespace ProyectoLaFarmaciaFinal
         public int IdCategoria { get => idCategoria; set => idCategoria = value; }
         public string NombreProducto { get => nombreProducto; set => nombreProducto = value; }
         public double PrecioProducto { get => precioProducto; set => precioProducto = value; }
+
+        public void AgregarProducto()
+        {
+
+        }
+
+        public void ModificarProducto()
+        {
+
+        }
+
+        public void EliminarProducto()
+        {
+
+        }
+
+        public void BuscarProducto()
+        {
+
+        }
+
+
     }
 }

@@ -22,5 +22,26 @@ namespace ProyectoLaFarmaciaFinal
         public string NombreCliente { get => nombreCliente; set => nombreCliente = value; }
         public string CorreoElectronico { get => correoElectronico; set => correoElectronico = value; }
         public string NumeroTelefonico { get => numeroTelefonico; set => numeroTelefonico = value; }
+
+        public void AgregarCliente()
+        {
+
+        }
+
+        public void ModificarCliente()
+        {
+
+        }
+
+        public void EliminarCliente()
+        {
+
+        }
+
+        public void BuscarCliente()
+        {
+
+        }
+
     }
 }

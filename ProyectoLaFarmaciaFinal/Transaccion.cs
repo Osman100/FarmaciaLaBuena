@@ -26,7 +26,34 @@ namespace ProyectoLaFarmaciaFinal
         public int IdDetalle { get => idDetalle; set => idDetalle = value; }
         public DateTime FechaTransaccion { get => fechaTransaccion; set => fechaTransaccion = value; }
         public double Total { get => total; set => total = value; }
+
+        public void AgregarTransaccion()
+        {
+
+        }
+
+        public void ModificarTransaccion()
+        {
+
+        }
+
+        public void EliminarTransaccion()
+        {
+
+        }
+
+        public void BuscarTransaccion()
+        {
+
+        }
+
+        public void CalcularTotal()
+        {
+
+
+        }
     }
+
 
    
 }

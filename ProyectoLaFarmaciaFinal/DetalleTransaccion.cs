@@ -31,8 +31,14 @@ namespace ProyectoLaFarmaciaFinal
         public void calcularSubtotal()
         {
             this.subtotal = this.cantidadProducto * producto1.PrecioProducto;
+        }
+
+        public void AgregarDetalleTransaccion()
+        {
 
         }
+
+
 
     }
 

@@ -18,5 +18,25 @@ namespace ProyectoLaFarmaciaFinal
 
         public int IdCategoria { get => idCategoria; set => idCategoria = value; }
         public string NombreCategoria { get => nombreCategoria; set => nombreCategoria = value; }
+
+        public void AgregarCategoria()
+        {
+
+        }
+
+        public void ModificarCategoria()
+        {
+
+        }
+
+        public void EliminarCategoria()
+        {
+
+        }
+
+        public void BuscarCategoria()
+        {
+
+        }
     }
 }
