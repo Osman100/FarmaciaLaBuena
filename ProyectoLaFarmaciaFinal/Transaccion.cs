@@ -8,5 +8,11 @@ namespace ProyectoLaFarmaciaFinal
 {
     internal class Transaccion
     {
+        private int idTransaccion;
+        private int idCliente;
+        private int idVendedor;
+        private int idDetalle;
+        private DateTime fechaTransaccion;
+        private double total;
     }
 }

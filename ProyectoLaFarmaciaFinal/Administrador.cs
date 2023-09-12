@@ -6,11 +6,7 @@ using System.Threading.Tasks;
 
 namespace ProyectoLaFarmaciaFinal
 {
-    internal class Vendedor
+    internal class Administrador
     {
-        private int idVendedor;
-        private string nombreVendedor;
-        private string estadoLaboral;
-        private double salario;
     }
 }
