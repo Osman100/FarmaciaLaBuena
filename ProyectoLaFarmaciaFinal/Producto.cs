@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace ProyectoLaFarmaciaFinal
 {
-    internal class Producto
+    public class Producto
     {
         private int idProducto;
         private int idProveedor;

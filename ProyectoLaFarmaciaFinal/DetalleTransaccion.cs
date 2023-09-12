@@ -6,16 +6,18 @@ using System.Threading.Tasks;
 
 namespace ProyectoLaFarmaciaFinal
 {
-    internal class DetalleTransaccion
+    public class DetalleTransaccion
     {
         private int idDetalle;
         private int idTransaccion;
         private int idProducto;
         private int cantidadProducto;
-        private double subtotal; 
+        private double subtotal;
+        Producto producto1 = new Producto();
 
         public DetalleTransaccion()
         {
+            
         }
 
         public int IdDetalle { get => idDetalle; set => idDetalle = value; }
@@ -24,9 +26,12 @@ namespace ProyectoLaFarmaciaFinal
         public int CantidadProducto { get => cantidadProducto; set => cantidadProducto = value; }
         public double Subtotal { get => subtotal; set => subtotal = value; }
 
+       
+
         public void calcularSubtotal()
         {
-            throw new NotImplementedException();
+            this.subtotal = this.cantidadProducto * producto1.PrecioProducto;
+
         }
 
     }
