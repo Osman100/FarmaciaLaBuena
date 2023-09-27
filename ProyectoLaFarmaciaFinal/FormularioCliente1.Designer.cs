@@ -29,9 +29,9 @@
         private void InitializeComponent()
         {
             button5 = new Button();
-            button4 = new Button();
-            button3 = new Button();
-            button2 = new Button();
+            btnClienteEliminarCliente = new Button();
+            btnClienteAgregarCliente = new Button();
+            btnClienteRealizarTransaccion = new Button();
             label2 = new Label();
             SuspendLayout();
             // 
@@ -45,32 +45,32 @@
             button5.UseVisualStyleBackColor = true;
             button5.Click += button5_Click;
             // 
-            // button4
+            // btnClienteEliminarCliente
             // 
-            button4.Location = new Point(198, 237);
-            button4.Name = "button4";
-            button4.Size = new Size(156, 32);
-            button4.TabIndex = 35;
-            button4.Text = "Eliminar Cliente";
-            button4.UseVisualStyleBackColor = true;
+            btnClienteEliminarCliente.Location = new Point(198, 237);
+            btnClienteEliminarCliente.Name = "btnClienteEliminarCliente";
+            btnClienteEliminarCliente.Size = new Size(156, 32);
+            btnClienteEliminarCliente.TabIndex = 35;
+            btnClienteEliminarCliente.Text = "Eliminar Cliente";
+            btnClienteEliminarCliente.UseVisualStyleBackColor = true;
             // 
-            // button3
+            // btnClienteAgregarCliente
             // 
-            button3.Location = new Point(198, 187);
-            button3.Name = "button3";
-            button3.Size = new Size(156, 32);
-            button3.TabIndex = 34;
-            button3.Text = "Agregar Cliente";
-            button3.UseVisualStyleBackColor = true;
+            btnClienteAgregarCliente.Location = new Point(198, 187);
+            btnClienteAgregarCliente.Name = "btnClienteAgregarCliente";
+            btnClienteAgregarCliente.Size = new Size(156, 32);
+            btnClienteAgregarCliente.TabIndex = 34;
+            btnClienteAgregarCliente.Text = "Agregar Cliente";
+            btnClienteAgregarCliente.UseVisualStyleBackColor = true;
             // 
-            // button2
+            // btnClienteRealizarTransaccion
             // 
-            button2.Location = new Point(198, 138);
-            button2.Name = "button2";
-            button2.Size = new Size(156, 32);
-            button2.TabIndex = 33;
-            button2.Text = "Realizar Transacción";
-            button2.UseVisualStyleBackColor = true;
+            btnClienteRealizarTransaccion.Location = new Point(198, 138);
+            btnClienteRealizarTransaccion.Name = "btnClienteRealizarTransaccion";
+            btnClienteRealizarTransaccion.Size = new Size(156, 32);
+            btnClienteRealizarTransaccion.TabIndex = 33;
+            btnClienteRealizarTransaccion.Text = "Realizar Transacción";
+            btnClienteRealizarTransaccion.UseVisualStyleBackColor = true;
             // 
             // label2
             // 
@@ -91,9 +91,9 @@
             BackColor = SystemColors.ActiveCaptionText;
             ClientSize = new Size(574, 371);
             Controls.Add(button5);
-            Controls.Add(button4);
-            Controls.Add(button3);
-            Controls.Add(button2);
+            Controls.Add(btnClienteEliminarCliente);
+            Controls.Add(btnClienteAgregarCliente);
+            Controls.Add(btnClienteRealizarTransaccion);
             Controls.Add(label2);
             Name = "FormularioCliente1";
             Text = "FormularioCliente1";
@@ -104,9 +104,9 @@
         #endregion
 
         private Button button5;
-        private Button button4;
-        private Button button3;
-        private Button button2;
+        private Button btnClienteEliminarCliente;
+        private Button btnClienteAgregarCliente;
+        private Button btnClienteRealizarTransaccion;
         private Label label2;
     }
 }
