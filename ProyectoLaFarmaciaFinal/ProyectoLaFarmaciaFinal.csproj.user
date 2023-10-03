@@ -4,13 +4,31 @@
     <Compile Update="Form1.cs">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Update="FormularioAgregarEmpleado.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="FormularioBuscarEmpleado.cs">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Update="FormularioCliente1.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Update="FormularioCliente2.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Update="formularioLogin.cs">
+    <Compile Update="FormularioEliminarEmpleado.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="FormularioLogin.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="FormularioMenu.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="FormularioMenuAdmin.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="FormularioModificarEmpleado.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Update="FormularioTarjetaCredito1.cs">

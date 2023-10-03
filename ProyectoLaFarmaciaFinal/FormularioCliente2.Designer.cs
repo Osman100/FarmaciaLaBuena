@@ -28,7 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
-            button5 = new Button();
+            btnRegresarCliente1 = new Button();
             label2 = new Label();
             btnClienteAgregar = new Button();
             label1 = new Label();
@@ -39,16 +39,17 @@
             txtNombreCliente = new TextBox();
             txtCorreoElectronico = new TextBox();
             txtNumeroTelefonico = new TextBox();
+            btnCerrarSesion = new Button();
             SuspendLayout();
             // 
-            // button5
+            // btnRegresarCliente1
             // 
-            button5.Location = new Point(444, 40);
-            button5.Name = "button5";
-            button5.Size = new Size(75, 27);
-            button5.TabIndex = 41;
-            button5.Text = "Regresar";
-            button5.UseVisualStyleBackColor = true;
+            btnRegresarCliente1.Location = new Point(444, 40);
+            btnRegresarCliente1.Name = "btnRegresarCliente1";
+            btnRegresarCliente1.Size = new Size(75, 27);
+            btnRegresarCliente1.TabIndex = 41;
+            btnRegresarCliente1.Text = "Regresar";
+            btnRegresarCliente1.UseVisualStyleBackColor = true;
             // 
             // label2
             // 
@@ -143,12 +144,22 @@
             txtNumeroTelefonico.Size = new Size(122, 23);
             txtNumeroTelefonico.TabIndex = 50;
             // 
+            // btnCerrarSesion
+            // 
+            btnCerrarSesion.Location = new Point(23, 40);
+            btnCerrarSesion.Name = "btnCerrarSesion";
+            btnCerrarSesion.Size = new Size(96, 27);
+            btnCerrarSesion.TabIndex = 51;
+            btnCerrarSesion.Text = "Cerrar Sesión";
+            btnCerrarSesion.UseVisualStyleBackColor = true;
+            // 
             // FormularioCliente2
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
             BackColor = SystemColors.ActiveCaptionText;
             ClientSize = new Size(574, 371);
+            Controls.Add(btnCerrarSesion);
             Controls.Add(txtNumeroTelefonico);
             Controls.Add(txtCorreoElectronico);
             Controls.Add(txtNombreCliente);
@@ -158,7 +169,7 @@
             Controls.Add(label3);
             Controls.Add(label1);
             Controls.Add(btnClienteAgregar);
-            Controls.Add(button5);
+            Controls.Add(btnRegresarCliente1);
             Controls.Add(label2);
             Name = "FormularioCliente2";
             Text = "FormularioCliente2";
@@ -168,7 +179,7 @@
 
         #endregion
 
-        private Button button5;
+        private Button btnRegresarCliente1;
         private Label label2;
         private Button btnClienteAgregar;
         private Label label1;
@@ -179,5 +190,6 @@
         private TextBox txtNombreCliente;
         private TextBox txtCorreoElectronico;
         private TextBox txtNumeroTelefonico;
+        private Button btnCerrarSesion;
     }
 }

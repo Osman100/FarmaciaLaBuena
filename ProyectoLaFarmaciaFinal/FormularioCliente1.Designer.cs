@@ -28,22 +28,23 @@
         /// </summary>
         private void InitializeComponent()
         {
-            button5 = new Button();
+            btnRegresarMenu = new Button();
             btnClienteEliminarCliente = new Button();
             btnClienteAgregarCliente = new Button();
             btnClienteRealizarTransaccion = new Button();
             label2 = new Label();
+            btnCerrarSesion = new Button();
             SuspendLayout();
             // 
-            // button5
+            // btnRegresarMenu
             // 
-            button5.Location = new Point(443, 37);
-            button5.Name = "button5";
-            button5.Size = new Size(75, 27);
-            button5.TabIndex = 36;
-            button5.Text = "Regresar";
-            button5.UseVisualStyleBackColor = true;
-            button5.Click += button5_Click;
+            btnRegresarMenu.Location = new Point(443, 37);
+            btnRegresarMenu.Name = "btnRegresarMenu";
+            btnRegresarMenu.Size = new Size(75, 27);
+            btnRegresarMenu.TabIndex = 36;
+            btnRegresarMenu.Text = "Regresar";
+            btnRegresarMenu.UseVisualStyleBackColor = true;
+            btnRegresarMenu.Click += button5_Click;
             // 
             // btnClienteEliminarCliente
             // 
@@ -84,13 +85,23 @@
             label2.TabIndex = 32;
             label2.Text = "Cliente";
             // 
+            // btnCerrarSesion
+            // 
+            btnCerrarSesion.Location = new Point(33, 37);
+            btnCerrarSesion.Name = "btnCerrarSesion";
+            btnCerrarSesion.Size = new Size(96, 27);
+            btnCerrarSesion.TabIndex = 43;
+            btnCerrarSesion.Text = "Cerrar Sesión";
+            btnCerrarSesion.UseVisualStyleBackColor = true;
+            // 
             // FormularioCliente1
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
             BackColor = SystemColors.ActiveCaptionText;
             ClientSize = new Size(574, 371);
-            Controls.Add(button5);
+            Controls.Add(btnCerrarSesion);
+            Controls.Add(btnRegresarMenu);
             Controls.Add(btnClienteEliminarCliente);
             Controls.Add(btnClienteAgregarCliente);
             Controls.Add(btnClienteRealizarTransaccion);
@@ -103,10 +114,11 @@
 
         #endregion
 
-        private Button button5;
+        private Button btnRegresarMenu;
         private Button btnClienteEliminarCliente;
         private Button btnClienteAgregarCliente;
         private Button btnClienteRealizarTransaccion;
         private Label label2;
+        private Button btnCerrarSesion;
     }
 }
