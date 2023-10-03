@@ -28,22 +28,12 @@
         /// </summary>
         private void InitializeComponent()
         {
-            btnCerrarSesion = new Button();
             btnRegresarMenuAdministrador = new Button();
             label2 = new Label();
             txtIdEmpleadoEliminar = new TextBox();
             label1 = new Label();
             btnEmpleadoEliminar = new Button();
             SuspendLayout();
-            // 
-            // btnCerrarSesion
-            // 
-            btnCerrarSesion.Location = new Point(39, 37);
-            btnCerrarSesion.Name = "btnCerrarSesion";
-            btnCerrarSesion.Size = new Size(96, 27);
-            btnCerrarSesion.TabIndex = 63;
-            btnCerrarSesion.Text = "Cerrar Sesión";
-            btnCerrarSesion.UseVisualStyleBackColor = true;
             // 
             // btnRegresarMenuAdministrador
             // 
@@ -102,7 +92,6 @@
             Controls.Add(txtIdEmpleadoEliminar);
             Controls.Add(label1);
             Controls.Add(btnEmpleadoEliminar);
-            Controls.Add(btnCerrarSesion);
             Controls.Add(btnRegresarMenuAdministrador);
             Controls.Add(label2);
             ForeColor = SystemColors.ControlText;
@@ -113,8 +102,6 @@
         }
 
         #endregion
-
-        private Button btnCerrarSesion;
         private Button btnRegresarMenuAdministrador;
         private Label label2;
         private TextBox txtIdEmpleadoEliminar;

@@ -40,7 +40,6 @@
             label1 = new Label();
             btnEmpleadoModificar = new Button();
             btnRegresarMenuAdministrador = new Button();
-            btnCerrarSesion = new Button();
             label2 = new Label();
             SuspendLayout();
             // 
@@ -152,15 +151,6 @@
             btnRegresarMenuAdministrador.Text = "Regresar";
             btnRegresarMenuAdministrador.UseVisualStyleBackColor = true;
             // 
-            // btnCerrarSesion
-            // 
-            btnCerrarSesion.Location = new Point(43, 40);
-            btnCerrarSesion.Name = "btnCerrarSesion";
-            btnCerrarSesion.Size = new Size(96, 27);
-            btnCerrarSesion.TabIndex = 70;
-            btnCerrarSesion.Text = "Cerrar Sesión";
-            btnCerrarSesion.UseVisualStyleBackColor = true;
-            // 
             // label2
             // 
             label2.AutoSize = true;
@@ -191,7 +181,6 @@
             Controls.Add(label1);
             Controls.Add(btnEmpleadoModificar);
             Controls.Add(btnRegresarMenuAdministrador);
-            Controls.Add(btnCerrarSesion);
             Controls.Add(label2);
             Name = "FormularioModificarEmpleado";
             Text = "FormularioModificarEmpleado";
@@ -213,7 +202,6 @@
         private Label label1;
         private Button btnEmpleadoModificar;
         private Button btnRegresarMenuAdministrador;
-        private Button btnCerrarSesion;
         private Label label2;
     }
 }

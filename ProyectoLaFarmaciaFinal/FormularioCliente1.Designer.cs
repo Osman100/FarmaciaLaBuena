@@ -33,7 +33,6 @@
             btnClienteAgregarCliente = new Button();
             btnClienteRealizarTransaccion = new Button();
             label2 = new Label();
-            btnCerrarSesion = new Button();
             SuspendLayout();
             // 
             // btnRegresarMenu
@@ -85,22 +84,12 @@
             label2.TabIndex = 32;
             label2.Text = "Cliente";
             // 
-            // btnCerrarSesion
-            // 
-            btnCerrarSesion.Location = new Point(33, 37);
-            btnCerrarSesion.Name = "btnCerrarSesion";
-            btnCerrarSesion.Size = new Size(96, 27);
-            btnCerrarSesion.TabIndex = 43;
-            btnCerrarSesion.Text = "Cerrar Sesión";
-            btnCerrarSesion.UseVisualStyleBackColor = true;
-            // 
             // FormularioCliente1
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
             BackColor = SystemColors.ActiveCaptionText;
             ClientSize = new Size(574, 371);
-            Controls.Add(btnCerrarSesion);
             Controls.Add(btnRegresarMenu);
             Controls.Add(btnClienteEliminarCliente);
             Controls.Add(btnClienteAgregarCliente);
@@ -119,6 +108,5 @@
         private Button btnClienteAgregarCliente;
         private Button btnClienteRealizarTransaccion;
         private Label label2;
-        private Button btnCerrarSesion;
     }
 }

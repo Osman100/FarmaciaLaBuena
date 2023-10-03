@@ -39,7 +39,6 @@
             txtNombreCliente = new TextBox();
             txtCorreoElectronico = new TextBox();
             txtNumeroTelefonico = new TextBox();
-            btnCerrarSesion = new Button();
             SuspendLayout();
             // 
             // btnRegresarCliente1
@@ -144,22 +143,12 @@
             txtNumeroTelefonico.Size = new Size(122, 23);
             txtNumeroTelefonico.TabIndex = 50;
             // 
-            // btnCerrarSesion
-            // 
-            btnCerrarSesion.Location = new Point(23, 40);
-            btnCerrarSesion.Name = "btnCerrarSesion";
-            btnCerrarSesion.Size = new Size(96, 27);
-            btnCerrarSesion.TabIndex = 51;
-            btnCerrarSesion.Text = "Cerrar Sesión";
-            btnCerrarSesion.UseVisualStyleBackColor = true;
-            // 
             // FormularioCliente2
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
             BackColor = SystemColors.ActiveCaptionText;
             ClientSize = new Size(574, 371);
-            Controls.Add(btnCerrarSesion);
             Controls.Add(txtNumeroTelefonico);
             Controls.Add(txtCorreoElectronico);
             Controls.Add(txtNombreCliente);
@@ -190,6 +179,5 @@
         private TextBox txtNombreCliente;
         private TextBox txtCorreoElectronico;
         private TextBox txtNumeroTelefonico;
-        private Button btnCerrarSesion;
     }
 }
