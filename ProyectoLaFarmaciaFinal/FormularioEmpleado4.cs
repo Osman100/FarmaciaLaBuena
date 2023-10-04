@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace ProyectoLaFarmaciaFinal
 {
-    public partial class FormularioBuscarEmpleado : Form
+    public partial class FormularioEmpleado4 : Form
     {
-        public FormularioBuscarEmpleado()
+        public FormularioEmpleado4()
         {
             InitializeComponent();
         }

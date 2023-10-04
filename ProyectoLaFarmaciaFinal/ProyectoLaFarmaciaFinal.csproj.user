@@ -4,10 +4,10 @@
     <Compile Update="Form1.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Update="FormularioAgregarEmpleado.cs">
+    <Compile Update="FormularioEmpleado1.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Update="FormularioBuscarEmpleado.cs">
+    <Compile Update="FormularioEmpleado4.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Update="FormularioCliente1.cs">
@@ -25,7 +25,10 @@
     <Compile Update="FormularioCliente5.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Update="FormularioEliminarEmpleado.cs">
+    <Compile Update="FormularioDetalleVenta1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="FormularioEmpleado3.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Update="FormularioLogin.cs">
@@ -37,7 +40,7 @@
     <Compile Update="FormularioMenuAdmin.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Update="FormularioModificarEmpleado.cs">
+    <Compile Update="FormularioEmpleado2.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Update="FormularioTarjetaCredito1.cs">

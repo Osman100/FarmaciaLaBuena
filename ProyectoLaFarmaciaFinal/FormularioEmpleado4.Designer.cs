@@ -1,6 +1,6 @@
 ﻿namespace ProyectoLaFarmaciaFinal
 {
-    partial class FormularioBuscarEmpleado
+    partial class FormularioEmpleado4
     {
         /// <summary>
         /// Required designer variable.
