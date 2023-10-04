@@ -32,7 +32,7 @@
             label2 = new Label();
             btnBuscarCategoria = new Button();
             btnEliminarCategoria = new Button();
-            btnMostrarCategoria = new Button();
+            btnModificarCategoria = new Button();
             btnAgregarCategoria = new Button();
             SuspendLayout();
             // 
@@ -75,14 +75,14 @@
             btnEliminarCategoria.Text = "Eliminar categoría";
             btnEliminarCategoria.UseVisualStyleBackColor = true;
             // 
-            // btnMostrarCategoria
+            // btnModificarCategoria
             // 
-            btnMostrarCategoria.Location = new Point(192, 158);
-            btnMostrarCategoria.Name = "btnMostrarCategoria";
-            btnMostrarCategoria.Size = new Size(156, 32);
-            btnMostrarCategoria.TabIndex = 61;
-            btnMostrarCategoria.Text = "Mostrar categoría";
-            btnMostrarCategoria.UseVisualStyleBackColor = true;
+            btnModificarCategoria.Location = new Point(192, 158);
+            btnModificarCategoria.Name = "btnModificarCategoria";
+            btnModificarCategoria.Size = new Size(156, 32);
+            btnModificarCategoria.TabIndex = 61;
+            btnModificarCategoria.Text = "Modificar categoría";
+            btnModificarCategoria.UseVisualStyleBackColor = true;
             // 
             // btnAgregarCategoria
             // 
@@ -101,7 +101,7 @@
             ClientSize = new Size(574, 371);
             Controls.Add(btnBuscarCategoria);
             Controls.Add(btnEliminarCategoria);
-            Controls.Add(btnMostrarCategoria);
+            Controls.Add(btnModificarCategoria);
             Controls.Add(btnAgregarCategoria);
             Controls.Add(btnRegresarMenu);
             Controls.Add(label2);
@@ -116,7 +116,7 @@
         private Label label2;
         private Button btnBuscarCategoria;
         private Button btnEliminarCategoria;
-        private Button btnMostrarCategoria;
+        private Button btnModificarCategoria;
         private Button btnAgregarCategoria;
     }
 }
