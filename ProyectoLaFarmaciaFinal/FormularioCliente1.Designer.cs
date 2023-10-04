@@ -29,10 +29,11 @@
         private void InitializeComponent()
         {
             btnRegresarMenu = new Button();
-            btnClienteEliminarCliente = new Button();
-            btnClienteAgregarCliente = new Button();
-            btnClienteRealizarTransaccion = new Button();
+            btnModificarCliente = new Button();
+            btnAgregarCliente = new Button();
             label2 = new Label();
+            btnBuscarCliente = new Button();
+            btnEliminarCliente = new Button();
             SuspendLayout();
             // 
             // btnRegresarMenu
@@ -45,32 +46,23 @@
             btnRegresarMenu.UseVisualStyleBackColor = true;
             btnRegresarMenu.Click += button5_Click;
             // 
-            // btnClienteEliminarCliente
+            // btnModificarCliente
             // 
-            btnClienteEliminarCliente.Location = new Point(198, 237);
-            btnClienteEliminarCliente.Name = "btnClienteEliminarCliente";
-            btnClienteEliminarCliente.Size = new Size(156, 32);
-            btnClienteEliminarCliente.TabIndex = 35;
-            btnClienteEliminarCliente.Text = "Eliminar Cliente";
-            btnClienteEliminarCliente.UseVisualStyleBackColor = true;
+            btnModificarCliente.Location = new Point(197, 159);
+            btnModificarCliente.Name = "btnModificarCliente";
+            btnModificarCliente.Size = new Size(156, 32);
+            btnModificarCliente.TabIndex = 35;
+            btnModificarCliente.Text = "Modificar Cliente";
+            btnModificarCliente.UseVisualStyleBackColor = true;
             // 
-            // btnClienteAgregarCliente
+            // btnAgregarCliente
             // 
-            btnClienteAgregarCliente.Location = new Point(198, 187);
-            btnClienteAgregarCliente.Name = "btnClienteAgregarCliente";
-            btnClienteAgregarCliente.Size = new Size(156, 32);
-            btnClienteAgregarCliente.TabIndex = 34;
-            btnClienteAgregarCliente.Text = "Agregar Cliente";
-            btnClienteAgregarCliente.UseVisualStyleBackColor = true;
-            // 
-            // btnClienteRealizarTransaccion
-            // 
-            btnClienteRealizarTransaccion.Location = new Point(198, 138);
-            btnClienteRealizarTransaccion.Name = "btnClienteRealizarTransaccion";
-            btnClienteRealizarTransaccion.Size = new Size(156, 32);
-            btnClienteRealizarTransaccion.TabIndex = 33;
-            btnClienteRealizarTransaccion.Text = "Realizar Transacción";
-            btnClienteRealizarTransaccion.UseVisualStyleBackColor = true;
+            btnAgregarCliente.Location = new Point(197, 109);
+            btnAgregarCliente.Name = "btnAgregarCliente";
+            btnAgregarCliente.Size = new Size(156, 32);
+            btnAgregarCliente.TabIndex = 34;
+            btnAgregarCliente.Text = "Agregar Cliente";
+            btnAgregarCliente.UseVisualStyleBackColor = true;
             // 
             // label2
             // 
@@ -84,16 +76,35 @@
             label2.TabIndex = 32;
             label2.Text = "Cliente";
             // 
+            // btnBuscarCliente
+            // 
+            btnBuscarCliente.Location = new Point(197, 261);
+            btnBuscarCliente.Name = "btnBuscarCliente";
+            btnBuscarCliente.Size = new Size(156, 32);
+            btnBuscarCliente.TabIndex = 38;
+            btnBuscarCliente.Text = "Buscar Cliente";
+            btnBuscarCliente.UseVisualStyleBackColor = true;
+            // 
+            // btnEliminarCliente
+            // 
+            btnEliminarCliente.Location = new Point(197, 211);
+            btnEliminarCliente.Name = "btnEliminarCliente";
+            btnEliminarCliente.Size = new Size(156, 32);
+            btnEliminarCliente.TabIndex = 37;
+            btnEliminarCliente.Text = "Eliminar Cliente";
+            btnEliminarCliente.UseVisualStyleBackColor = true;
+            // 
             // FormularioCliente1
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
             BackColor = SystemColors.ActiveCaptionText;
             ClientSize = new Size(574, 371);
+            Controls.Add(btnBuscarCliente);
+            Controls.Add(btnEliminarCliente);
             Controls.Add(btnRegresarMenu);
-            Controls.Add(btnClienteEliminarCliente);
-            Controls.Add(btnClienteAgregarCliente);
-            Controls.Add(btnClienteRealizarTransaccion);
+            Controls.Add(btnModificarCliente);
+            Controls.Add(btnAgregarCliente);
             Controls.Add(label2);
             Name = "FormularioCliente1";
             Text = "FormularioCliente1";
@@ -104,9 +115,10 @@
         #endregion
 
         private Button btnRegresarMenu;
-        private Button btnClienteEliminarCliente;
-        private Button btnClienteAgregarCliente;
-        private Button btnClienteRealizarTransaccion;
+        private Button btnModificarCliente;
+        private Button btnAgregarCliente;
         private Label label2;
+        private Button btnBuscarCliente;
+        private Button btnEliminarCliente;
     }
 }
