@@ -7,6 +7,9 @@
     <Compile Update="FormularioCategoria1.cs">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Update="FormularioCompra1.cs">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Update="FormularioEmpleado1.cs">
       <SubType>Form</SubType>
     </Compile>
