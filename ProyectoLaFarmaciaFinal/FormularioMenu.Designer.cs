@@ -73,7 +73,7 @@
             label2.Name = "label2";
             label2.Size = new Size(80, 33);
             label2.TabIndex = 37;
-            label2.Text = "Menu";
+            label2.Text = "Menú";
             // 
             // btnCerrarSesion
             // 

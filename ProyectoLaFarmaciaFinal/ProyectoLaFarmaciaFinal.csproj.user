@@ -55,5 +55,8 @@
     <Compile Update="FormularioTarjetaCredito5.cs">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Update="FormularioVenta1.cs">
+      <SubType>Form</SubType>
+    </Compile>
   </ItemGroup>
 </Project>

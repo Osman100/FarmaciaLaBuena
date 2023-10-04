@@ -91,7 +91,7 @@
             label2.Name = "label2";
             label2.Size = new Size(248, 33);
             label2.TabIndex = 44;
-            label2.Text = "Menu Administrador";
+            label2.Text = "Menú Administrador";
             // 
             // FormularioMenuAdmin
             // 
