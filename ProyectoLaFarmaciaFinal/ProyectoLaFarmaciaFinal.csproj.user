@@ -70,6 +70,18 @@
     <Compile Update="FormularioProducto1.cs">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Update="FormularioProducto2.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="FormularioProducto3.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="FormularioProducto4.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="FormularioProducto5.cs">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Update="FormularioRol1.cs">
       <SubType>Form</SubType>
     </Compile>
