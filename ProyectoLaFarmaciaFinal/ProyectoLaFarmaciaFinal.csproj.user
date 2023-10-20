@@ -13,6 +13,21 @@
     <Compile Update="FormularioDetalleCompra1.cs">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Update="FormularioDetalleVenta2.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="FormularioDetalleVenta3.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="FormularioDetalleVenta4.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="FormularioDetalleVenta5.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="FormularioDetalleVenta6.cs">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Update="FormularioEmpleado1.cs">
       <SubType>Form</SubType>
     </Compile>
