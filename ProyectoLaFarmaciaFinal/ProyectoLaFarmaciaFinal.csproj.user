@@ -1,8 +1,125 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="Current" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
-    <ItemGroup>
-        <Compile Update="Form1.cs">
-            <SubType>Form</SubType>
-        </Compile>
-    </ItemGroup>
+  <ItemGroup>
+    <Compile Update="Form1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="FormularioCategoria1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="FormularioCompra1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="FormularioDetalleCompra1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="FormularioDetalleVenta2.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="FormularioDetalleVenta3.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="FormularioDetalleVenta4.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="FormularioDetalleVenta5.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="FormularioDetalleVenta6.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="FormularioEmpleado1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="FormularioEmpleado4.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="FormularioCliente1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="FormularioCliente2.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="FormularioCliente3.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="FormularioCliente4.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="FormularioCliente5.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="FormularioDetalleVenta1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="FormularioEmpleado3.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="FormularioLogin.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="FormularioMenu.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="FormularioMenuAdmin.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="FormularioEmpleado2.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="FormularioProducto1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="FormularioProducto2.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="FormularioProducto3.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="FormularioProducto4.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="FormularioProducto5.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="FormularioRol1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="FormulariosProveedor1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="FormularioTarjetaCredito1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="FormularioTarjetaCredito2.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="FormularioTarjetaCredito3.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="FormularioTarjetaCredito4.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="FormularioTarjetaCredito5.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="FormularioVenta1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="FormularioVenta2.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="FormularioVenta3.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="FormularioVenta4.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="FormularioVenta5.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="FormularioVenta6.cs">
+      <SubType>Form</SubType>
+    </Compile>
+  </ItemGroup>
 </Project>

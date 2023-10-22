@@ -28,49 +28,41 @@
         /// </summary>
         private void InitializeComponent()
         {
-            button5 = new Button();
-            button4 = new Button();
-            button3 = new Button();
-            button2 = new Button();
+            btnRegresarMenu = new Button();
+            btnModificarCliente = new Button();
+            btnAgregarCliente = new Button();
             label2 = new Label();
+            btnBuscarCliente = new Button();
+            btnEliminarCliente = new Button();
             SuspendLayout();
             // 
-            // button5
+            // btnRegresarMenu
             // 
-            button5.Location = new Point(443, 37);
-            button5.Name = "button5";
-            button5.Size = new Size(75, 27);
-            button5.TabIndex = 36;
-            button5.Text = "Regresar";
-            button5.UseVisualStyleBackColor = true;
-            button5.Click += button5_Click;
+            btnRegresarMenu.Location = new Point(443, 37);
+            btnRegresarMenu.Name = "btnRegresarMenu";
+            btnRegresarMenu.Size = new Size(75, 27);
+            btnRegresarMenu.TabIndex = 36;
+            btnRegresarMenu.Text = "Regresar";
+            btnRegresarMenu.UseVisualStyleBackColor = true;
+            btnRegresarMenu.Click += button5_Click;
             // 
-            // button4
+            // btnModificarCliente
             // 
-            button4.Location = new Point(198, 237);
-            button4.Name = "button4";
-            button4.Size = new Size(156, 32);
-            button4.TabIndex = 35;
-            button4.Text = "Eliminar Cliente";
-            button4.UseVisualStyleBackColor = true;
+            btnModificarCliente.Location = new Point(197, 159);
+            btnModificarCliente.Name = "btnModificarCliente";
+            btnModificarCliente.Size = new Size(156, 32);
+            btnModificarCliente.TabIndex = 35;
+            btnModificarCliente.Text = "Modificar Cliente";
+            btnModificarCliente.UseVisualStyleBackColor = true;
             // 
-            // button3
+            // btnAgregarCliente
             // 
-            button3.Location = new Point(198, 187);
-            button3.Name = "button3";
-            button3.Size = new Size(156, 32);
-            button3.TabIndex = 34;
-            button3.Text = "Agregar Cliente";
-            button3.UseVisualStyleBackColor = true;
-            // 
-            // button2
-            // 
-            button2.Location = new Point(198, 138);
-            button2.Name = "button2";
-            button2.Size = new Size(156, 32);
-            button2.TabIndex = 33;
-            button2.Text = "Realizar Transacción";
-            button2.UseVisualStyleBackColor = true;
+            btnAgregarCliente.Location = new Point(197, 109);
+            btnAgregarCliente.Name = "btnAgregarCliente";
+            btnAgregarCliente.Size = new Size(156, 32);
+            btnAgregarCliente.TabIndex = 34;
+            btnAgregarCliente.Text = "Agregar Cliente";
+            btnAgregarCliente.UseVisualStyleBackColor = true;
             // 
             // label2
             // 
@@ -84,16 +76,35 @@
             label2.TabIndex = 32;
             label2.Text = "Cliente";
             // 
+            // btnBuscarCliente
+            // 
+            btnBuscarCliente.Location = new Point(197, 261);
+            btnBuscarCliente.Name = "btnBuscarCliente";
+            btnBuscarCliente.Size = new Size(156, 32);
+            btnBuscarCliente.TabIndex = 38;
+            btnBuscarCliente.Text = "Buscar Cliente";
+            btnBuscarCliente.UseVisualStyleBackColor = true;
+            // 
+            // btnEliminarCliente
+            // 
+            btnEliminarCliente.Location = new Point(197, 211);
+            btnEliminarCliente.Name = "btnEliminarCliente";
+            btnEliminarCliente.Size = new Size(156, 32);
+            btnEliminarCliente.TabIndex = 37;
+            btnEliminarCliente.Text = "Eliminar Cliente";
+            btnEliminarCliente.UseVisualStyleBackColor = true;
+            // 
             // FormularioCliente1
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
             BackColor = SystemColors.ActiveCaptionText;
             ClientSize = new Size(574, 371);
-            Controls.Add(button5);
-            Controls.Add(button4);
-            Controls.Add(button3);
-            Controls.Add(button2);
+            Controls.Add(btnBuscarCliente);
+            Controls.Add(btnEliminarCliente);
+            Controls.Add(btnRegresarMenu);
+            Controls.Add(btnModificarCliente);
+            Controls.Add(btnAgregarCliente);
             Controls.Add(label2);
             Name = "FormularioCliente1";
             Text = "FormularioCliente1";
@@ -103,10 +114,11 @@
 
         #endregion
 
-        private Button button5;
-        private Button button4;
-        private Button button3;
-        private Button button2;
+        private Button btnRegresarMenu;
+        private Button btnModificarCliente;
+        private Button btnAgregarCliente;
         private Label label2;
+        private Button btnBuscarCliente;
+        private Button btnEliminarCliente;
     }
 }
