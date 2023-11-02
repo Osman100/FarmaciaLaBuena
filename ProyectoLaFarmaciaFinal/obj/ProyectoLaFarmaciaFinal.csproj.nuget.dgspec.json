@@ -1,24 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\smosh\\source\\repos\\Osman100\\FarmaciaLaBuena\\ProyectoLaFarmaciaFinal\\ProyectoLaFarmaciaFinal.csproj": {}
+    "C:\\Users\\Osman\\Documents\\GitHub\\FarmaciaLaBuena\\ProyectoLaFarmaciaFinal\\ProyectoLaFarmaciaFinal.csproj": {}
   },
   "projects": {
-    "C:\\Users\\smosh\\source\\repos\\Osman100\\FarmaciaLaBuena\\ProyectoLaFarmaciaFinal\\ProyectoLaFarmaciaFinal.csproj": {
+    "C:\\Users\\Osman\\Documents\\GitHub\\FarmaciaLaBuena\\ProyectoLaFarmaciaFinal\\ProyectoLaFarmaciaFinal.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\smosh\\source\\repos\\Osman100\\FarmaciaLaBuena\\ProyectoLaFarmaciaFinal\\ProyectoLaFarmaciaFinal.csproj",
+        "projectUniqueName": "C:\\Users\\Osman\\Documents\\GitHub\\FarmaciaLaBuena\\ProyectoLaFarmaciaFinal\\ProyectoLaFarmaciaFinal.csproj",
         "projectName": "ProyectoLaFarmaciaFinal",
-        "projectPath": "C:\\Users\\smosh\\source\\repos\\Osman100\\FarmaciaLaBuena\\ProyectoLaFarmaciaFinal\\ProyectoLaFarmaciaFinal.csproj",
-        "packagesPath": "C:\\Users\\smosh\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\smosh\\source\\repos\\Osman100\\FarmaciaLaBuena\\ProyectoLaFarmaciaFinal\\obj\\",
+        "projectPath": "C:\\Users\\Osman\\Documents\\GitHub\\FarmaciaLaBuena\\ProyectoLaFarmaciaFinal\\ProyectoLaFarmaciaFinal.csproj",
+        "packagesPath": "C:\\Users\\Osman\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Osman\\Documents\\GitHub\\FarmaciaLaBuena\\ProyectoLaFarmaciaFinal\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-        ],
         "configFilePaths": [
-          "C:\\Users\\smosh\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Users\\Osman\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -62,7 +58,7 @@
               "privateAssets": "none"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.401\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.400\\RuntimeIdentifierGraph.json"
         }
       }
     }
